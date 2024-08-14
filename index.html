@@ -1,0 +1,210 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Services Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">SKY</div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#services"><i class="fa-brands fa-servicestack"></i>Services</a></li>
+                <li><a href="#about"><i class="fa-solid fa-eject"></i>About Us</a></li>
+                <li><a href="#testimonials"><i class="fa-solid fa-message"></i>Testimonials</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-id-card"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h5>Welcome to</h5>
+            <h1>Unique Solutions Hub</h1>
+            <p>Our website offers a comprehensive range of services designed to meet diverse needs, including personalized consulting,
+            <br> professional development, and technical solutions. We aim to help people solve problems and enhance business growth and efficiency.</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card" data-details-id="service1-details">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/6042b9550c3d985be6a84165/Cloud-computing-concept--Communication-network-/960x0.jpg?format=jpg&width=960" alt="Service 1">
+                <h3>Cloud Services</h3>
+                <p> Our Cloud Service offers scalable, secure, and efficient cloud solutions to streamline your business operations. 
+                    Benefit from flexible storage, enhanced data security, and seamless integration to drive innovation and growth.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service1-details" class="service-details" style="display: none;">
+                <h4> 1. Infrastructure as a Service (IaaS) :</h4>
+                <p>Our IaaS provides essential computing resources like virtual machines, storage, and networks, enabling you to scale infrastructure on-demand without investing in physical hardware.</p>
+                <h4> 2. Platform as a Service (PaaS) :</h4>
+                <p>With PaaS, developers can build, test, and deploy applications efficiently using our comprehensive development and deployment environment, eliminating the complexities of managing underlying infrastructure.</p>
+                <h4> 3. Software as a Service (SaaS) :</h4>
+                <p>Our SaaS solutions deliver software applications over the internet, allowing you to access and use software from any device without worrying about installation, maintenance, or updates.</p>
+            </div>
+            <div class="service-card" data-details-id="service2-details">
+                <img src="https://static.wixstatic.com/media/68c620_da07cfc58d044b4eaca8964f3e0b7341~mv2.jpg/v1/fill/w_640,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/68c620_da07cfc58d044b4eaca8964f3e0b7341~mv2.jpg" alt="Service 2">
+                <h3>Construction Services</h3>
+                <p>Our Construction Services provide end-to-end solutions for residential, commercial, and industrial projects. From planning and design to construction and project management, we ensure quality, efficiency, and adherence to timelines and budgets.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service2-details" class="service-details" style="display: none;">
+                <h4> 1. Residential Construction :</h4>
+                <p>Our residential construction services cover everything from custom home building to renovations and extensions, ensuring personalized designs, quality craftsmanship, and a smooth, stress-free experience for homeowners.</p>
+                <h4> 2. Commercial Construction :</h4>
+                <p>We specialize in commercial construction projects, including office buildings, retail spaces, and hospitality establishments, delivering innovative solutions that meet the unique needs of businesses and enhance operational efficiency</p>
+                <h4> 3. Industrial Construction:</h4>
+                <p>Our industrial construction services include the development of factories, warehouses, and manufacturing plants, focusing on robust infrastructure, safety standards, and efficient project management to support industrial operations.</p>
+            </div>
+            <div class="service-card" data-details-id="service3-details">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpgJ2UEeWBJSy8KUXBwnKYJE9LLJQUYTMQGg&s" alt="Service 3">
+                <h3>Mechanical Services</h3>
+                <p>Our Mechanical Services provide comprehensive solutions for HVAC systems, plumbing, and mechanical installations. We ensure optimal performance, energy efficiency, and reliability for both residential and commercial properties.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service3-details" class="service-details" style="display: none;">
+                <h4>1. HVAC Systems:</h4>
+                <p>Our HVAC services include the installation, maintenance, and repair of heating, ventilation, and air conditioning systems, ensuring comfortable and energy-efficient environments in residential and commercial spaces.</p>
+                <h4>2. Plumbing Services:</h4>
+                <p>We offer a full range of plumbing services, from routine maintenance and emergency repairs to the installation of complex piping systems, guaranteeing efficient and reliable water supply and waste management.</p>
+                <h4>3. Mechanical Installations:</h4>
+                <p>Our mechanical installation services cover a broad spectrum of equipment and systems, including elevators, escalators, and industrial machinery, providing expert solutions to meet the specific needs of each project.</p>
+            </div>
+            <div class="service-card" data-details-id="service4-details">
+                <img src="https://cdn2.hubspot.net/hubfs/4495544/electrical-system-in-home.jpeg" alt="Service 4">
+                <h3>Electrical Services</h3>
+                <p>Electrical services include the installation, maintenance, and repair of electrical systems and equipment.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service4-details" class="service-details" style="display: none;">
+                <h4>1. Wiring and Rewiring: </h4>
+                <p>Electrical wiring in new constructions and rewiring old buildings.</p>
+                <h4>2. Lighting Installation:</h4>
+                <p>Indoor and outdoor lighting solutions.</p>
+                <h4>3. Power Distribution: </h4>
+                <p>Electrical panels and distribution systems.</p>
+            </div>
+            <div class="service-card" data-details-id="service5-details">
+                <img src="https://www.advancedtechco.com/wp-content/uploads/2021/05/7-Bullet-Proof-Tips-on-What-Makes-an-Effective-Managed-Services-Vendor.jpg" alt="Service 3">
+                <h3>IT Services</h3>
+                <p>IT services encompass a broad range of technology-related services that support business operations.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service5-details" class="service-details" style="display: none;">
+                <h4>1. Network Management:  </h4>
+                <p>Design and management of network infrastructure.</p>
+                <h4>2. IT Support and Helpdesk:</h4>
+                <p>Technical support and troubleshooting.</p>
+                <h4>3. Cybersecurity Services: </h4>
+                <p>Protection against cyber threats and data breaches.</p>
+            </div>
+            <div class="service-card" data-details-id="service3-details">
+                <img src="https://kodegurus.com/images/digital-marketing.png" alt="Service 6">
+                <h3> Marketing Services</h3>
+                <p>Marketing services help businesses promote their products and services to their target audience.</p>
+                <a href="javascript:void(0)">Read More</a>
+            </div>
+            <div id="service6-details" class="service-details" style="display: none;">
+                <h4>1. Digital Marketing:  </h4>
+                <p>Online marketing strategies and campaigns.</p>
+                <h4>2. Social Media Marketing: </h4>
+                <p>Promotion through social media platforms</p>
+                <h4>3. Content Marketing:</h4>
+                <p>Creating and distributing valuable content.</p>
+            </div>
+            </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your company story or mission statement.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/028/148/762/small_2x/young-man-animation-style-illustration-free-photo.jpg" alt="Team Member 1">
+                <h3>KARTHIK</h3>
+                <p>Darling, our Chief Project Manager, brings over 15 years of experience in the construction industry. His expertise in project management and commitment to quality ensures that all our projects are completed on time and within budget. Darling’s leadership and attention to detail have been instrumental in the successful delivery of numerous residential and commercial projects. </p>
+            </div>
+            <div class="team-member">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/030/690/466/small_2x/office-worker-2d-cartoon-illustraton-on-white-background-h-free-photo.jpg" alt="Team Member 2">
+                <h3>DHANUSH</h3>
+                <p>Surya is our Lead Mechanical Engineer with a decade of experience in designing and implementing HVAC and plumbing systems. Her technical acumen and innovative approach to problem-solving ensure optimal performance and energy efficiency in all our mechanical installations. Surya's dedication to excellence has earned her a reputation as a trusted expert in the field.  </p>
+            </div>
+            <div class="team-member">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/025/776/255/small_2x/3d-illustration-of-businessman-with-laptop-businessman-working-in-office-cartoon-character-3d-rendering-3d-illustration-ai-generation-photo.jpg"alt="Team Member 2">
+                <h3>PRAKASH</h3>
+                <p>Pawan Kalyan is our Lead Mechanical Engineer with a decade of experience in designing and implementing HVAC and plumbing systems. Her technical acumen and innovative approach to problem-solving ensure optimal performance and energy efficiency in all our mechanical installations. Jane's dedication to excellence has earned her a reputation as a trusted expert in the field.  </p>
+
+             <!-- Add more team members as needed -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Working with your team on our office renovation project was a breeze. The attention to detail, professionalism, and timely delivery exceeded our expectations. We're extremely satisfied with the results and look forward to future collaborations."</p>
+                <h3>Prem Sai - CEO, ABC Corporation</h3>
+            </div>
+            <div class="testimonial">
+                <p>""Thank you for transforming our house into our dream home. Your expertise in residential construction made the process smooth and stress-free. The quality of workmanship and attention to our preferences were outstanding. Highly recommended!" </p>
+                <h3>Jaya - Homeowner</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Your mechanical services have significantly improved the efficiency of our HVAC systems. The team's expertise, reliability, and quick response to maintenance requests have been invaluable in keeping our operations running smoothly. Thank you for your excellent service."</p>
+                <h3>Karthik - Facility Manager, XYZ Industries</h3>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@uniqsolutionshub.com</p>
+            <p><strong>Address:</strong> 123 college, Vijayawada, India</p>
+            <div class="social-media">
+                <!-- Social media icons/links -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="newsletter">
+            <form>
+                <input type="email" name="newsletter" placeholder="Subscribe to our uniq solutions">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
